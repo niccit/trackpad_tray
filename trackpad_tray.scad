@@ -25,9 +25,9 @@ module tray_hook() {
             color("red")cube([4, tray_hook_width, trackpad_tray_height], center=true);
       }
       translate([-6.95 - 0.001, 0, tray_hook_height / 2 - 3])
-         cube([3, tray_hook_width, 6], center = true);
+         cube([2, tray_hook_width, 6], center = true);
       translate([-6.95 - 0.001, 0, -tray_hook_height / 2 + 3])
-         cube([3, tray_hook_width, 6], center = true);
+         cube([2, tray_hook_width, 6], center = true);
 
    }
 }
